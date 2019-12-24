@@ -1,0 +1,5 @@
+a = int(input("1 ci kateti daxil edin"))
+b = int(input("2 ci kateti daxil edin"))
+
+sahe = (1/2 * a * b)
+print ("Ucbucagin sahesi", sahe)
