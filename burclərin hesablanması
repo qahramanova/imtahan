@@ -1,0 +1,40 @@
+ay=input("dogldugunuz ayi daxil edin")
+gun=int(input("doguldugunuz gunu daxil edin"))
+
+if ay == "Mart":
+  burc = "Qoc" if (gun < 20) else "Buga"
+
+elif ay == "Aprel":
+  burc = "Buga" if (gun < 21) else "Ekizler"
+
+elif ay == "May":
+  burc = "Ekizler" if (gun < 21) else "Xerceng"
+
+elif ay == "Iyun":
+  burc = "Xerceng" if (gun < 23) else "Sir"
+
+elif ay == "Iyul":
+  burc == "Sir" if (gun < 23) else "Qiz"
+
+elif ay == "Avqust":
+  burc == "Qiz" if (gun < 23) else "Terezi"
+
+elif ay == "Sentyabr":
+  burc = "Terezi" if (gun < 23) else "Eqreb"
+
+elif ay == "Oktyabr":
+  burc = "Eqreb" if (gun < 23) else "Terezi"
+
+elif ay == "Noyabr":
+  burc = "Oxatan" if (gun < 22) else "Oglaq"
+
+elif ay == "Dekabr":
+  burc = "Oglaq" if (gun < 20) else "Dolca"
+ 
+elif ay == "Yanvar":
+  burc = "Dolca" if (gun < 19) else "Baliq"
+  
+elif ay == "Fevral":
+  burc = "Baliq" if (gun < 21) else "Qoc"
+  
+print("Sizin burc'nuz :",burc)
