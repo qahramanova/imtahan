@@ -1,0 +1,9 @@
+reqem_ = "1234678"
+
+daxilolunanreqem = input("daxil olunan reqem:")
+for simvol in daxilolunanreqem :
+  if simvol in reqem_:
+    print("daxil olunan reqemler icerisinde 5 reqemi yoxdur")
+    break
+  else:
+    print("butun reqemler daxil olunub")
