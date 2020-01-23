@@ -1,0 +1,30 @@
+defnomre ="0505444445"
+defoperator = "azercell"
+
+
+while (True):
+  nomre = input("Nomrenizi daxil edin:")
+  operator = input("Operator:")
+  
+  if ((nomre == defnomre) and (operator == defoperator)):
+    print("Azercellə xoş gəldiniz...")
+    break
+  
+  elif ((nomre != defnomre) and (operator == defoperator)):
+    print("nomrede ki səhvliyi düzəldin!")
+    
+  elif ((nomre == defnomre ) and (operator != defoperator)):
+    print("operatorunuz yanlış")
+    print("operatoru duzgun qeyd edin")
+    print("operatorun düzəlişini etməyimizi istəyirsiz? (B/X)")
+    cavab = input()
+    if (cavab == "B"):
+      yenioperator = input("Yeni operatorunuz..")
+      print("gozleyin...")
+      
+      defopertor = yenioperator
+      print("Operator mueyyen edildi.")
+      
+    else:
+      print("siz azercell istifadecisi deyilsiz!")
+    
