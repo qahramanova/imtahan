@@ -1,0 +1,22 @@
+print("---------------------------------------------------------------------")
+from datetime import *
+
+d, m, y = [int(x) for x in input("Birinci şəxsin"
+		" doğum tarixini daxil edin ex(DD/MM/YYYY) : ").split('/')] 
+
+b1 = date(y, m, d) 
+
+d1, m1, y1 = [int(x) for x in input("İkinci şəxsin"
+		" doğum tarixini daxil edin  ex(DD/MM/YYYY) : ").split('/')] 
+
+b2 = date(y1, m1, d1) 
+
+if b1 == b2: 
+	print("Hər iki şəxs eyni ildə dünyaya gəlib") 
+	
+elif b1 > b2: 
+	print("Birinci şəxs daha böyükdür") 
+	
+else: 
+	print("İkinci şəxs daha böyükdür") 
+print("---------------------------------------------------------------------")
