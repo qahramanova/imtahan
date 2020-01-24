@@ -1,0 +1,14 @@
+ad = input("ad daxil edin")
+nomre = input("nomre daxil edin")
+operatorkodu = input("operator kodu daxil edin")
+if operatorkodu == ('+99450'):
+    print("sizin nomre azercell")
+    
+    
+else:
+    print("siz azercell istifadecisi deyilsiz")
+
+    
+    
+    
+    
