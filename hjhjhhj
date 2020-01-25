@@ -1,0 +1,10 @@
+def largest_word(sentence):
+    split_sentence = sentence.split(' ')
+    largest_word = ''
+    for i in range(len(split_sentence)):
+        if len(split_sentence[i]) > len(largest_word):
+           largest_word = split_sentence[i]
+    print(largest_word)
+sentence = input("Cumleni daxil edin: ")
+
+largest_word(sentence)
