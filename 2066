@@ -1,0 +1,13 @@
+print("--------------------------------------------")
+from datetime import*
+
+
+d, m, y = [int(x) for x in input("Siz "
+		" doğum tarixinizi daxil edin ex(DD/MM/YYYY) : ").split('/')] 
+
+
+if m >12:
+  print("daxil etdiyiniz tarix yanlisdir")
+
+else:
+  print("daxil etdiyiniz tarix dogrudur")
